@@ -1,0 +1,39 @@
+
+> studentsphere@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.11
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/37) ...
+Error occurred prerendering page "/student/assignments". Read more: https://nextjs.org/docs/messages/prerender-error
+FirebaseError: Firebase: Error (auth/invalid-api-key).
+    at I (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:345268)
+    at _ (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:345316)
+    at i.instanceFactory (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:412291)
+    at a.getOrInitializeService (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:311537)
+    at a.initialize (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:310912)
+    at eJ (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:384116)
+    at rq (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:412960)
+    at 9184 (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/719.js:1:8111)
+    at t (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/webpack-runtime.js:1:143)
+    at 5512 (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/719.js:1:3928)
+Export encountered an error on /student/assignments/page: /student/assignments, exiting the build.
+Error occurred prerendering page "/Dbtest". Read more: https://nextjs.org/docs/messages/prerender-error
+FirebaseError: Firebase: Error (auth/invalid-api-key).
+    at I (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:345268)
+    at _ (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:345316)
+    at i.instanceFactory (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:412291)
+    at a.getOrInitializeService (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:311537)
+    at a.initialize (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:310912)
+    at eJ (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:384116)
+    at rq (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/chunks/844.js:3:412960)
+    at 9184 (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/app/Dbtest/page.js:1:7947)
+    at t (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/webpack-runtime.js:1:143)
+    at 1453 (/Users/shreybansal/Pictures/Agile Project/studentsphere/.next/server/app/Dbtest/page.js:1:3564)
+Export encountered an error on /Dbtest/page: /Dbtest, exiting the build.
+ ⨯ Next.js build worker exited with code: 1 and signal: null

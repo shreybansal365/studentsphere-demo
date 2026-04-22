@@ -1,0 +1,45 @@
+{
+  "name": "studentsphere",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Shrey Bansal <shreybansal365@gmail.com> (https://github.com/shreybansal365)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-radio-group": "^1.2.2",
+    "@sparticuz/chromium": "^143.0.4",
+    "cheerio": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "firebase": "^11.2.0",
+    "framer-motion": "^12.0.6",
+    "gsap": "^3.12.7",
+    "icons": "^1.0.0",
+    "lucide-react": "^0.474.0",
+    "moment-timezone": "^0.5.47",
+    "next": "15.1.11",
+    "puppeteer": "^24.39.1",
+    "puppeteer-core": "^24.40.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-intersection-observer": "^9.15.1",
+    "react-router-dom": "^7.1.5",
+    "react-toastify": "^11.0.3",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vercel": "^51.7.0"
+  }
+}
